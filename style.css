@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #F3ECF3, #EB7FF7, #7B65EB);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.logo-section {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* margin-bottom: 10px; */
+  margin-right: 20px;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-subContainer {
+  display: block;
+}
+
+.title {
+  align-self: flex-start;
+  font-size: 20px;
+  margin: 0;
+}
+
+.description {
+  margin: 5px 0;
+  color: #000;
+  font-size: 14px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.features span {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.telegram-btn {
+  display: inline-flex; /* Вирівнюємо іконку та текст по горизонталі */
+  align-items: center; /* Вирівнюємо по вертикалі */
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 15px 80px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.telegram-btn:hover {
+  background: #444;
+}
+
+.telegram-icon {
+  margin-right: 8px; /* Відступ між іконкою та текстом */
+  fill: white; /* Колір іконки */
+  width: 20px;
+  height: 20px;
+}
+
