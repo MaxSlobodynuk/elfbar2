@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-width: 320px; /* Забезпечує мінімальну ширину сторінки */
 }
 
 .container {
@@ -13,7 +14,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  min-height: 100vh; /* Забезпечує вертикальне центрування */
   padding: 20px;
+  box-sizing: border-box; /* Враховує padding у ширині */
 }
 
 .card {
@@ -21,8 +24,11 @@ body {
   border-radius: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
-  max-width: 400px;
+  max-width: 400px; /* Максимальна ширина */
+  min-width: 300px; /* Мінімальна ширина */
+  width: 100%; /* Займає всю доступну ширину в межах батьківського контейнера */
   text-align: center;
+  box-sizing: border-box; /* Враховує padding у ширині */
 }
 
 .logo-section {
@@ -91,6 +97,12 @@ body {
   font-size: 1rem;
   font-weight: bold;
   transition: background 0.3s ease;
+  white-space: nowrap;
+
+  display: flex; /* Використовуємо flex для вирівнювання вмісту */
+  justify-content: center; /* Центруємо текст горизонтально */
+  align-items: center; /* Центруємо текст вертикально */
+
 }
 
 .telegram-btn:hover {
