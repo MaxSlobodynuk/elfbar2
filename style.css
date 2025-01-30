@@ -9,6 +9,10 @@ body {
   min-width: 320px; /* Забезпечує мінімальну ширину сторінки */
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   justify-content: center;
